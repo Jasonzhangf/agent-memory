@@ -1,0 +1,19 @@
+{
+  "branch": "codex/governance-reset-memory-20260905",
+  "created_at": "2026-09-06T02:32:45.552175+00:00",
+  "mode": "discard_legacy_control_plane",
+  "preserved": [
+    "business_source",
+    "runtime_data",
+    "active",
+    "protected"
+  ],
+  "project_root": "/Volumes/extension/code/agent-plugins/agent-memory/playground/governance-reset-memory-20260905",
+  "removed": [
+    ".appsdk",
+    ".appsdk-control",
+    "generated"
+  ],
+  "reset_id": "reset-40398",
+  "schema_version": 1
+}
