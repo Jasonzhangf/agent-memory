@@ -12,4 +12,4 @@ done
 
 # verify:ci
 repo_root=$(git rev-parse --show-toplevel)
-exec "$repo_root/agent-memory/scripts/setup/verify-ci.sh"
+exec "$repo_root/scripts/setup/verify-ci.sh"

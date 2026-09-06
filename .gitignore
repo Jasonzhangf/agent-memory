@@ -6,3 +6,6 @@
 /playground/
 # END APPSDK MANAGED
 /target/
+/node_modules/
+/plugin/node_modules/
+/.agent-collab/

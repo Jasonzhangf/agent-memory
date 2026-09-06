@@ -2,7 +2,7 @@
 
 OpenCode memory plugin：模型输出 index-ready memory；Pending Index 在 compaction 边界提交为不可变原始知识和整理增量；分类索引按 epoch 发布，旧知识、证据和整理历史均可回查。
 
-仓库位置：`agent-plugins/agent-memory/`。本目录不是独立 Git 仓库；Git root 与 root `main` 位于上一级。
+本目录是独立 Git 仓库，远端为 `https://github.com/Jasonzhangf/agent-memory.git`。Git root 与 `main` 均属于本项目；同级 `agent-tui` 独立管理。
 
 当前状态：`design / clarification_pending`。禁止业务实现、插件接线、编译、review、发布。
 

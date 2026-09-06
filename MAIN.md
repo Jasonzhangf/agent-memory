@@ -1,6 +1,6 @@
 # agent-memory Main
 
-本文件是 agent-memory 功能 main 文档。Git root main 由上一级治理定义；详细设计只能细化，不能绕过阶段或并行制造第二条业务主线。
+本文件是 agent-memory 功能 main 文档。本目录是独立 Git root，main 由本项目治理定义；详细设计只能细化，不能绕过阶段或并行制造第二条业务主线。
 
 ## 1. 根 main 责任
 
@@ -14,7 +14,7 @@
 实现 worktree 固定放在：
 
 ```text
-<agent-plugins-root>/playground/agent-memory-<milestone>-<run-id>/
+<agent-memory-root>/playground/<milestone>-<run-id>/
 ```
 
 每个 worktree 只处理一个语义 milestone。依赖 milestone 必须从前置 milestone 已进入 main 的精确 commit 创建新 worktree。

@@ -11,4 +11,4 @@ esac
 
 # verify:local
 repo_root=$(git rev-parse --show-toplevel)
-exec "$repo_root/agent-memory/scripts/setup/verify-local.sh"
+exec "$repo_root/scripts/setup/verify-local.sh"
